@@ -1,0 +1,13 @@
+﻿@using Semana11;
+@using ReportViewerForMvc;
+
+@{
+    ViewBag.Title = "ReporteEmpleados";
+}
+
+<h2>Reporte Empleados</h2>
+
+<br />
+<br />
+
+@Html.ReportViewer(ViewBag.ReportViewer as Microsoft.Reporting.WebForms.ReportViewer)
